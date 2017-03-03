@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingWebAPI", "BillingWebAPI\BillingWebAPI.csproj", "{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingWebAPI.Tests", "BillingWebAPI.Tests\BillingWebAPI.Tests.csproj", "{F197CE07-F7E8-43AB-B859-030A12288C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingDAL", "BillingDAL\BillingDAL.csproj", "{2E18975D-53D7-4704-A1BE-72F02616E19B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F197CE07-F7E8-43AB-B859-030A12288C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F197CE07-F7E8-43AB-B859-030A12288C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F197CE07-F7E8-43AB-B859-030A12288C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F197CE07-F7E8-43AB-B859-030A12288C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E18975D-53D7-4704-A1BE-72F02616E19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E18975D-53D7-4704-A1BE-72F02616E19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E18975D-53D7-4704-A1BE-72F02616E19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E18975D-53D7-4704-A1BE-72F02616E19B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
