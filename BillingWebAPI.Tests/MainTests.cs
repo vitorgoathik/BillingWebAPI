@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using BillingWebAPI.Controllers;
-using BillingDAL.Models;
+using BillingWebAPI.Models;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -20,11 +20,6 @@ namespace BillingWebAPI.Tests
                 {
                     transactionController.GetTransactions(null);
                 });
-            //Assert.Throws(typeof(Exception), //null or empty expenses
-            //    delegate
-            //    {
-            //        transactionController.GetTransactions(new Bill());
-            //    });
             Assert.Throws(typeof(Exception), //repeated name
                 delegate
                 {

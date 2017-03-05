@@ -59,10 +59,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BillingDAL\BillingDAL.csproj">
-      <Project>{2E18975D-53D7-4704-A1BE-72F02616E19B}</Project>
-      <Name>BillingDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BillingWebAPI\BillingWebAPI.csproj">
       <Project>{3EDCEFF6-6E31-4AE2-A171-85012C0BED48}</Project>
       <Name>BillingWebAPI</Name>
