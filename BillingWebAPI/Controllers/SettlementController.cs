@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace BillingWebAPI.Controllers
 {
-    public class ExpenseController : Controller<Expense>
-    { 
+    public class SettlementController : Controller<Settlement>
+    {
     }
 }

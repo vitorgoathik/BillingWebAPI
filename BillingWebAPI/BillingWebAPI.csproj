@@ -115,7 +115,10 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BillController.cs" />
+    <Compile Include="Controllers\Controller.cs" />
     <Compile Include="Controllers\ExpenseController.cs" />
+    <Compile Include="Controllers\SettlementController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

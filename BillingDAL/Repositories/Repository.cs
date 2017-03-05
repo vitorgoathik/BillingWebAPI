@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BillingDAL.Repositories
 {
-    public abstract class Repository<T>
+    public class Repository<T>
     {
         List<T> list = new List<T>();
         public virtual IList<T> GetAll()

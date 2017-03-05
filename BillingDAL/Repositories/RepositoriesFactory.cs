@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BillingDAL.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,10 @@ namespace BillingDAL.Repositories
           where TRepository : Repository<T>, new()
         {
             return new TRepository();
+        }
+        public static Repository<T> GetRepositoryInstance<T>()
+        {
+            return new Repository<T>();
         }
     }
 }
